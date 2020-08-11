@@ -13,7 +13,7 @@ app.get('/', function(req, res){
 
 app.get('/a', function(req, res){
     // res.send('this is a page');
-    res.send('this is a page a<br><a href="/a">JumpToPageA</a>');
+    res.send('this is a page a<br><a href="/a">JumpToPageA</a><a href="/">回到首页</a>');
 });
 
 app.get('/a/a1', function(req, res){
